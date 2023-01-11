@@ -1,0 +1,19 @@
+CREATE TABLE baby_gear_plus (id INTEGER PRIMARY KEY, name TEXT, ordered INTEGER, sold INTEGER, price INTEGER);
+
+INSERT INTO baby_gear_plus VALUES (1, "stroller", 50, 23, 79);
+INSERT INTO baby_gear_plus VALUES (2, "bedside_bassinet", 100, 56, 189);
+INSERT INTO baby_gear_plus VALUES (3, "highchair", 70, 37, 35);
+INSERT INTO baby_gear_plus VALUES (4, "onesies", 250, 67, 8);
+INSERT INTO baby_gear_plus VALUES (5, "bottles", 60, 27, 22);
+INSERT INTO baby_gear_plus VALUES (6, "blanket", 150, 87, 15);
+INSERT INTO baby_gear_plus VALUES (7, "formula", 80, 45, 39);
+INSERT INTO baby_gear_plus VALUES (8, "bouncer", 65, 59, 88);
+INSERT INTO baby_gear_plus VALUES (9, "bath_toys", 360, 129, 6);
+INSERT INTO baby_gear_plus VALUES (10, "lotion", 70, 17, 13);
+INSERT INTO baby_gear_plus VALUES (11, "baby_wash", 70, 28, 13);
+INSERT INTO baby_gear_plus VALUES (12, "rocker", 150, 79, 130);
+INSERT INTO baby_gear_plus VALUES (13, "rocking_chair", 40, 38, 160);
+INSERT INTO baby_gear_plus VALUES (14, "crib", 80, 54, 120);
+INSERT INTO baby_gear_plus VALUES (15, "crib_mattress", 60, 36, 84);
+
+SELECT SUM (sold) from baby_gear_plus
